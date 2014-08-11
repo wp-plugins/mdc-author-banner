@@ -8,10 +8,10 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A simple plugin to allow authors to upload a banner image. Banner image can be shown anywhere using shortcode or calling a function.
-
 == Description ==
 
 A simple plugin to allow authors to upload a banner image. Banner image can be shown anywhere using shortcode or calling a function.
+Use shortcode `[mdc_author_banner_url]` or function `mdc_author_banner_url();` to return uploaded banner url.
 
 == Installation ==
 
