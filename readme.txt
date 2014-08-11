@@ -17,5 +17,5 @@ Use shortcode `[mdc_author_banner_url]` or function `mdc_author_banner_url();` t
 
 1. Upload the `mdc_author_banner_url` folder and its contents to your wp-contents/plugins directory.
 2. Activate in the Plugins menu.
-3. Uplaod banner image from left menu under `Users`.
+3. Uplaod banner image from left menu under `Users` in wp-admin area.
 4. Add shortcode `[mdc_author_banner_url]` in your post, page, widget on in a template file; if you wish!
