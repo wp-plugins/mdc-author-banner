@@ -1,8 +1,7 @@
 <?php
 /*
 Plugin Name:	MDC Author Banner
-Description:	A simple plugin to allow authors to upload a banner image. Banner image can be shown anywhere using shortcode or calling a function.
-Use shortcode <strong>[mdc_author_banner_url]</strong> or function <strong>mdc_author_banner_url();</strong> to return uploaded banner url.
+Description:	A simple plugin to allow authors to upload a banner image. Banner image can be shown anywhere using shortcode or calling a function. Use shortcode <strong>[mdc_author_banner_url]</strong> or function <strong>mdc_author_banner_url();</strong> to return uploaded banner url.
 Author:			Nazmul Ahsan
 Author URI:		http://mukto.medhabi.com
 Plugin URI:		https://wordpress.org/plugins/mdc-author-banner/
