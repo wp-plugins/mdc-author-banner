@@ -5,7 +5,7 @@ Description:	A simple plugin to allow authors to upload a banner image. Banner i
 Author:			Nazmul Ahsan
 Author URI:		http://mukto.medhabi.com
 Plugin URI:		https://wordpress.org/plugins/mdc-author-banner/
-Version:		1.0.0
+Version:		1.0.1
 License:		GPLv3
 */
 
@@ -36,14 +36,17 @@ function mdc_author_banner_uploader(){
 			<input type="submit" name="submit" value="Upload" class="button button-primary">
 		</form>
 		<?php
-		if($_POST){
 			$upload_to = wp_upload_dir();
 			$upload_directory = $upload_to[basedir].'/banners/';
 			$upload_url = $upload_to[baseurl].'/banners/';
+
+			if (!file_exists($upload_directory)) {
+				mkdir($upload_directory, 0777, true);
+			}
 			$allowedExts = array("gif", "jpeg", "jpg", "png");
 			$temp = explode(".", $_FILES["file"]["name"]);
 			$extension = end($temp);
-
+			if($_POST){
 			if ((($_FILES["file"]["type"] == "image/gif")
 			|| ($_FILES["file"]["type"] == "image/jpeg")
 			|| ($_FILES["file"]["type"] == "image/jpg")
