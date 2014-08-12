@@ -7,6 +7,7 @@ Author URI:		http://mukto.medhabi.com
 Plugin URI:		https://wordpress.org/plugins/mdc-author-banner/
 Version:		1.0.1
 License:		GPLv3
+Tags: author image, profile, avatar, author banner, banner image, mdc
 */
 
 function mdc_author_banner_submenu(){
