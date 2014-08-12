@@ -1,6 +1,6 @@
 === MDC Author Banner ===
 Contributors: mukto90
-Tags: author image, profile, avatar, author banner, mdc
+Tags: author image, profile, avatar, author banner, banner image, mdc
 Requires at least: 3.0.1
 Tested up to: 3.9.2
 Stable tag: 1.0.1
