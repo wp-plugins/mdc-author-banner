@@ -5,7 +5,7 @@ Description:	A simple plugin to allow authors to upload a banner image. Banner i
 Author:			Nazmul Ahsan
 Author URI:		http://mukto.medhabi.com
 Plugin URI:		https://wordpress.org/plugins/mdc-author-banner/
-Version:		1.0.1
+Version:		1.1
 License:		GPLv3
 Tags: author image, profile, avatar, author banner, banner image, mdc
 */
