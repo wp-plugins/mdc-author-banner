@@ -1,5 +1,5 @@
 === MDC Author Banner ===
-Contributors: mukto90
+Contributors: mukto90, medhabidotcom
 Tags: author image, profile, avatar, author banner, banner image, mdc
 Requires at least: 3.0.1
 Tested up to: 4.1
